@@ -41,7 +41,7 @@
     }
 
     .box{
-        background-image: url("https://static.wixstatic.com/media/c837a6_991d1c2bddf447e399b6a73d4e0281a6~mv2.jpg/v1/fill/w_1901,h_1100,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/c837a6_991d1c2bddf447e399b6a73d4e0281a6~mv2.jpg");
+        background-image: url("images/c837a6_991d1c2bddf447e399b6a73d4e0281a6~mv2.avif");
         background-size: cover; /* Ensures the image covers the entire element */
         background-position: center; /* Centers the image */
         background-repeat: no-repeat; /* Prevents the image from repeating */
@@ -813,24 +813,158 @@
   background: #c4b693;
 }
 
-/* Responsive for smaller screens */
-@media (max-width: 900px) {
+/* --- Responsive Styles for Mobile Devices --- */
+@media (max-width: 600px) {
+  body {
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+  }
+  .navbar nav, .logo, .logo a {
+    display: block;
+    margin: 0;
+    text-align: center;
+  }
+  #navh1 {
+    margin-left: 0;
+    display: block;
+    font-size: 28px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  #inqury {
+    margin-left: 0;
+    width: 90%;
+    margin: 10px auto;
+    display: block;
+  }
+  .box {
+    height: auto;
+    min-height: 350px;
+    padding-top: 40px;
+    background-position: center;
+    background-size: cover;
+  }
+  .mainh2, .mainp3, .mainh2, .main {
+    margin-left: 10px;
+    font-size: 24px !important;
+    display: block;
+  }
+  .mainp3 {
+    font-size: 40px !important;
+  }
+  .mainh2 {
+    font-size: 28px !important;
+  }
+  .text1 {
+    font-size: 18px;
+    margin-left: 10px;
+  }
+  .video {
+    margin-left: 10px;
+    width: 90%;
+  }
+  .pardesing {
+    font-size: 22px;
+    width: 95vw;
+    margin-left: 2vw;
+    margin-right: 2vw;
+  }
+  #text2 {
+    margin-left: 10px;
+    font-size: 22px;
+  }
+  #imag1, #imag2, .twoimag, .apartment2, .apartment5, .main5im, .main5im2, .main6im, .main7im, .m7im {
+    width: 95vw !important;
+    max-width: 95vw;
+    height: auto !important;
+    margin-left: 2vw !important;
+    margin-right: 2vw !important;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: block;
+  }
+  .main2, .main3, .main4, .main5, .main6, .main7 {
+    margin-left: 0 !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+  }
+  .apartmentname p, .apartmentname, .para, .para p, .logoes2, .logoes2 i {
+    font-size: 20px !important;
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+    display: block !important;
+    text-align: left !important;
+  }
+  .avapln2 {
+    margin-left: 0 !important;
+    display: block !important;
+    text-align: center !important;
+    padding: 10px 0;
+  }
+  .avapla4, .avapla3, .avapla11, .avapla12 {
+    margin-left: 0 !important;
+    margin-top: 10px;
+    width: 90vw;
+    max-width: 95vw;
+    font-size: 18px;
+  }
+  .main5text, .main6text, .main7para, .m7paragraph {
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+    font-size: 18px !important;
+    text-align: left !important;
+  }
+  .main6h1, .main6h1p, .main6h12p, .main6h13p {
+    font-size: 22px !important;
+    margin: 5px 0 !important;
+    display: block !important;
+  }
+  .main6h1para {
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+    word-spacing: normal !important;
+  }
+  .main7h2, .m7h2 {
+    font-size: 28px !important;
+    margin-left: 10px !important;
+  }
+  .main7para p, .secondpara, .m7para, .m7para2 {
+    font-size: 16px !important;
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+    display: block !important;
+  }
+  .contact-section {
+    max-width: 98vw;
+    margin: 20px auto;
+    padding: 0 5px;
+  }
+  .contact-title {
+    font-size: 32px;
+  }
+  .contact-desc {
+    font-size: 16px;
+  }
   .form-row {
-    flex-direction: column;
-    gap: 10px;
+    flex-direction: column !important;
+    gap: 10px !important;
+  }
+  .form-group label, .form-group input, .form-group select {
+    font-size: 16px !important;
+  }
+  .submit-btn {
+    font-size: 20px;
+    width: 100%;
   }
 }
 
-.anchoroflogo{
-    color: #000000;
-    text-decoration: none;
-}
-
 .anchorofnav{
-    color: #000000;
     text-decoration: none;
+    color: black;s
 }
-    
 </style>
 <body>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
